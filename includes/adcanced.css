@@ -1,0 +1,141 @@
+/*------------html default------------*/
+body, ul, li, img, p {
+	color: #333;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+li {
+	list-style-type: none;
+	padding: 0px;
+}
+a, i {
+	text-decoration: none;
+	color: #888;
+	font-size: 13px;
+}
+a:hover {
+	text-decoration: none;
+}
+/*------------/html default------------*/
+
+/*------------header------------*/
+header {
+	display: flex;
+	height: 60px;
+	background-color: #f1f1f1;
+}
+header a {
+	color: #333;
+}
+header ul {
+	width: 100%;
+	padding: 15px;
+	display: grid;
+	grid-template-rows: 1fr;
+	align-items: center;
+}
+header img {
+	width: 100%;
+	height: auto;
+}
+header #aimage {
+	grid-column: 1 / 2;
+}
+header #main {
+	grid-column: 2 / 3;
+	justify-self: end;
+}
+/*------------/header------------*/
+
+/*------------main------------*/
+section {
+	height: 75vh;
+	padding: 0 40px;
+}
+.container form {
+	display: grid;
+	grid-template-rows: repeat(6, 1fr);
+	grid-template-columns: 200px 1fr;
+	grid-template-areas: 
+		"h3 ."
+		"label1 input1"
+		"label2 input2"
+		"label3 input3"
+		"label4 input4"
+		". button" ;
+	align-items: center;
+	justify-items: stretch;
+}
+h2 {
+	color: #d93025;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 30px 0;
+	border-bottom: 1px solid #eee;
+}
+h3 {
+	font-size: 18px;
+	grid-area: h3;
+	font-weight: 400;	
+}
+label {
+	font-size: 14px;
+}
+input {
+	width: 100%;
+	border-radius: 1px;
+	border: 1px solid #c0c0c0;
+	font-size: 13px;
+	height: 25px;
+	padding: 1px 8px;
+}
+.label1 { grid-area: label1; }
+.input1 { grid-area: input1; }
+.label2 { grid-area: label2; }
+.input2 { grid-area: input2; }
+.label3 { grid-area: label3; }
+.input3 { grid-area: input3; }
+.label4 { grid-area: label4; }
+.input4 { grid-area: input4; }
+.button {
+	grid-area: button;
+	justify-self: end;
+}
+.button > input {
+	color: #eee;
+	border: 1px solid #aaa;
+	line-height: 25px;
+	height: 36;
+	cursor: pointer;
+	border-radius: 3px;
+	background-color: #4d90fe;
+	width: 120px;
+	height: 30px;
+}
+/*------------/main------------*/
+
+/*------------footer------------*/
+footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+.foot, .down {
+	background: #f7f7f7;
+	padding: 20px 1.5em;
+}
+.foot {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.foot ul {
+	display: flex;
+	align-items: center;
+}
+.down ul {
+	display: flex;
+	justify-self: center;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
