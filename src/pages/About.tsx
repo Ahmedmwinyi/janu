@@ -38,19 +38,19 @@ const About = () => {
     {
       icon: Users,
       label: "Happy Clients",
-      value: "100+",
+      value: "10+",
       color: "from-blue-500 to-cyan-500",
     },
     {
       icon: Code2,
       label: "Projects Completed",
-      value: "200+",
+      value: "5+",
       color: "from-purple-500 to-pink-500",
     },
     {
       icon: Award,
       label: "Years Experience",
-      value: "5+",
+      value: "2+",
       color: "from-green-500 to-emerald-500",
     },
     {
@@ -94,7 +94,7 @@ const About = () => {
 
   const journey = [
     {
-      year: "2022",
+      year: "2023",
       title: "Started as Junior Developer",
       description:
         "Began my career at a tech startup in Zanzibar, learning full-stack development and gaining experience in fast-paced environments.",
@@ -102,10 +102,10 @@ const About = () => {
       color: "from-blue-500 to-cyan-500",
     },
     {
-      year: "2023",
+      year: "2024",
       title: "Senior Developer & Team Lead",
       description:
-        "Promoted to lead development teams and manage complex projects for African businesses, honing leadership skills.",
+        "Promoted to lead development teams and manage complex projects for Tanzanian businesses, honing leadership skills.",
       icon: Briefcase,
       color: "from-purple-500 to-pink-500",
     },
@@ -341,7 +341,7 @@ const About = () => {
                 <div className="space-y-4">
                   <div>
                     <h4 className="font-semibold text-gray-900">
-                      B.Sc. Computer Science
+                      B.ICT. Information Comunication Technology
                     </h4>
                     <p className="text-gray-600">University of Zanzibar, 2024</p>
                   </div>
@@ -349,7 +349,7 @@ const About = () => {
                     <h4 className="font-semibold text-gray-900">
                       Certified Project Manager
                     </h4>
-                    <p className="text-gray-600">PMI Certification, 2022</p>
+                    <p className="text-gray-600">PMI Certification, 2025</p>
                   </div>
                 </div>
               </motion.div>

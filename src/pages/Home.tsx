@@ -106,28 +106,28 @@ const Home = () => {
 
   const testimonials = [
     {
-      name: "Leonel Messi",
+      name: "Juma Messi",
       company: "Zanzibar Fashion House",
       content:
         "Janu transformed our online presence completely. Our sales increased by 400% within 3 months!",
       rating: 5,
-      image: "AM",
+      image: "JM",
     },
     {
-      name: "Ibrahim Mohammed",
+      name: "Shabani Mohammed",
       company: "Bambi Logistics Ltd",
       content:
         "The inventory management system has revolutionized our operations. Highly professional work!",
       rating: 5,
-      image: "IY",
+      image: "SM",
     },
     {
-      name: "Fatma Al-Hassan",
+      name: "Fatma Duni",
       company: "EduTech Solutions(Fuoni)",
       content:
         "Outstanding mobile app development. Our students love the new learning platform!",
       rating: 5,
-      image: "FA",
+      image: "FD",
     },
   ];
 
@@ -214,7 +214,7 @@ const Home = () => {
               className="text-lg text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed"
             >
               Professional ICT consultant and full-stack developer based in
-              Africa (Tanzania), helping businesses transform through innovative
+              Zanzibar (Tanzania), helping businesses transform through innovative
               technology solutions.
             </motion.p>
 
@@ -311,7 +311,7 @@ const Home = () => {
               </span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive ICT solutions tailored for African (Tanzanian)
+              Comprehensive ICT solutions tailored for Zanzibar (Tanzanian)
               businesses, from concept to deployment and beyond.
             </p>
           </motion.div>
@@ -414,7 +414,7 @@ const Home = () => {
               </span>
             </h2>
             <p className="text-xl text-gray-600">
-              Success stories from businesses across Africa (Tanzania) who've transformed
+              Success stories from businesses across Africa who've transformed
               with technology.
             </p>
           </motion.div>

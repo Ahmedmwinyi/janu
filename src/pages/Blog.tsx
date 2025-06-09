@@ -17,7 +17,7 @@ const Blog = () => {
       content:
         "In today's rapidly evolving digital landscape, staying current with web development trends is crucial for African businesses...",
       author: "Ahmed Janu",
-      date: "2024-01-15",
+      date: "2025-01-15",
       readTime: "8 min read",
       category: "Web Development",
       tags: ["Web Development", "African Business", "Trends", "Technology"],
@@ -33,7 +33,7 @@ const Blog = () => {
       content:
         "Mobile applications have become essential tools for businesses across Africa. They offer unique advantages...",
       author: "Ahmed Janu",
-      date: "2024-01-10",
+      date: "2025-04-10",
       readTime: "6 min read",
       category: "Mobile Development",
       tags: [
@@ -53,7 +53,7 @@ const Blog = () => {
       content:
         "Proper database design is the foundation of any successful application. Poor database architecture can lead to performance issues...",
       author: "Ahmed Janu",
-      date: "2024-01-05",
+      date: "2025-04-05",
       readTime: "10 min read",
       category: "Backend Development",
       tags: ["Database", "Backend", "Performance", "Scalability"],

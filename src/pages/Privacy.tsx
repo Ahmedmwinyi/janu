@@ -87,13 +87,13 @@ const Privacy = () => {
     {
       icon: Mail,
       title: "Email Us",
-      content: "privacy@ictafrica.com",
+      content: "Ahmedmwinyi00@gmail.com",
       description: "For privacy-related inquiries and data requests",
     },
     {
       icon: Phone,
       title: "Call Us",
-      content: "+233 24 123 4567",
+      content: "+255 776 799 9666",
       description: "Speak directly with our privacy officer",
     },
   ];
@@ -186,11 +186,11 @@ const Privacy = () => {
             >
               <span className="flex items-center">
                 <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                GDPR Compliant
+                XYZ Compliant
               </span>
               <span className="flex items-center">
                 <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                Last Updated: January 2024
+                Last Updated: June 2025
               </span>
             </motion.div>
           </motion.div>

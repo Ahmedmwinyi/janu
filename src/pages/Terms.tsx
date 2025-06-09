@@ -87,13 +87,13 @@ const Terms = () => {
     {
       icon: Mail,
       title: "Legal Inquiries",
-      content: "legal@ictafrica.com",
+      content: "Ahmedmwinyi00@gmail.com",
       description: "For contract and terms-related questions",
     },
     {
       icon: Phone,
       title: "Direct Support",
-      content: "+233 24 123 4567",
+      content: "+255 776 799 666",
       description: "Speak with our team about service terms",
     },
   ];
@@ -194,7 +194,7 @@ const Terms = () => {
               </span>
               <span className="flex items-center">
                 <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                Last Updated: January 2024
+                Last Updated: June 2025
               </span>
             </motion.div>
           </motion.div>
